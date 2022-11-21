@@ -93,3 +93,108 @@ footer {
   fill: hsl(300, 69%, 71%);
 }
 
+@media (min-width: 576px) {
+  #img-landing {
+    width: 65%; 
+    height: auto;
+    margin: 0 auto 4rem auto; 
+  }
+
+  .div-landing-description {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 766px) {
+  .div-landing {
+    display: flex;
+    margin-bottom: 4rem;
+  }
+
+  #img-landing, .div-landing-description {
+    margin: 0;
+  }
+
+  #img-landing {
+    width: 55%;
+    margin-right: 2rem;
+  }
+
+  .div-landing-description {
+    width: 40%;
+    text-align: start;
+  }
+
+  .div-landing-description > h2 {
+    margin-top: 2rem;
+  }
+
+  .list-social-medias {
+    width: 15%;
+  }
+}
+
+@media (min-width: 922px) {
+  body {
+    background-image: url('../images/bg-desktop.svg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  #header-logo {
+    width: 150px;
+  }
+
+  main {
+    padding: 0 2.25rem 2rem 2.25rem;
+  }
+
+  .div-landing {
+    margin-bottom: 0;
+  }
+
+  .div-landing-description > h2 {
+    font-size: 1.75rem;
+  }
+
+  .div-landing-description > div {
+    margin-bottom: 1.5rem;
+  }
+
+  footer {
+    padding: 0 2.25rem;
+    margin: 0;
+  }
+
+  .list-social-medias {
+    width: 12.5%;
+    margin: 0 0 0 auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  header {
+    padding: 2rem 4rem 4rem 4rem;
+  }
+
+  main {
+    padding: 0 4rem 4rem 4rem;
+  }
+
+  .div-landing-description > h2, .div-landing-description > div {
+    margin-bottom: 1.5rem;
+  }
+
+  .div-landing-description > h2 {
+    font-size: 2.25rem;
+  }
+
+  .div-landing-description > button {
+    width: 40%;
+  }
+
+  .list-social-medias {
+    width: 10%;
+  }
+}
