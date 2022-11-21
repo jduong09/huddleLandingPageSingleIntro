@@ -1,0 +1,95 @@
+/* font-family: 'Open Sans', sans-serif; 400 Body
+font-family: 'Poppins', sans-serif; 400 600 Headers
+*/
+
+/* Active States: hsl(300, 69%, 71%) */
+body {
+  min-height: 100vh;
+  color: hsl(0, 0%, 100%);
+  font-family: 'Open Sans';
+  font-weight: 400;
+  background-color: hsl(257, 40%, 49%);
+  background-image: url('../images/bg-mobile.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.div-landing-description > button:hover, .list-social-medias > li > a:hover {
+  cursor: pointer;
+}
+
+header {
+  padding: 2rem 2.25rem;
+}
+
+#header-logo {
+  display: block;
+  width: 125px;
+  height: auto;
+}
+
+main {
+  padding: 1.75rem 2.25rem;
+}
+
+.div-landing-description {
+  text-align: center;
+}
+
+#img-landing {
+  display: block;
+  margin-bottom: 4rem;
+}
+
+.div-landing-description > h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.div-landing-description > div {
+  margin: 0 auto 1rem auto;
+}
+
+.div-landing-description > button {
+  font-family: 'Poppins';
+  width: 60%;
+  padding: .5rem 0;
+  color: hsl(257, 40%, 49%);
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 500px;
+  font-size: 1rem;
+}
+
+.div-landing-description > button:hover {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(300, 69%, 71%);
+}
+
+footer {
+  margin-top: 2.25rem;
+}
+
+.list-social-medias {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.list-social-medias > li > a > svg {
+  padding: .325rem;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+}
+
+.list-social-medias > li > a:hover > svg {
+  border-color: hsl(300, 69%, 71%);
+}
+
+.list-social-medias > li > a:hover > svg > path {
+  fill: hsl(300, 69%, 71%);
+}
+
